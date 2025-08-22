@@ -1,7 +1,7 @@
 # HydroAI
 a specialized conversational AI framework for hydrological data analysis
 
-Readme.md
+
 Step 1: Setup
 1.	Make sure all your files (app.py, analysis_toolkit.py, data_agent.py, llm_dispatcher.py) are in the same directory.
 2.	If it exists, delete the old sample_data.csv so the new one is generated.
