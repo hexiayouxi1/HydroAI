@@ -3,7 +3,7 @@ A specialized conversational AI framework for hydrological data analysis
 
 
 Step 1: Setup
-1.	Make sure all your files (app.py, analysis_toolkit.py, data_agent.py, llm_dispatcher.py) are in the same directory. Download the LLM model (Qwen2.5) and its fine-tuned parameters from https://zenodo.org/uploads/16938551.
+1.	Make sure all your files (app.py, analysis_toolkit.py, data_agent.py, llm_dispatcher.py) are in the same directory. Download the LLM model (Qwen2.5) and its fine-tuned parameters from https://zenodo.org/records/16938551.
 2.	If it exists, delete the old sample_data.csv so the new one is generated.
 3.	Install all required libraries: pip install gradio "darts[pytorch,lgbm]" pandas numpy pymannkendall shap openmeteo-requests requests-cache retry-requests "transformers[bitsandbytes]" peft accelerate
 4.	Run the application from your terminal: python app.py
