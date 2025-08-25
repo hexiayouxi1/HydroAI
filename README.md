@@ -8,6 +8,7 @@ Step 1: Setup
 3.	Install all required libraries: pip install gradio "darts[pytorch,lgbm]" pandas numpy pymannkendall shap openmeteo-requests requests-cache retry-requests "transformers[bitsandbytes]" peft accelerate
 4.	Run the application from your terminal: python app.py
 5.	Open the provided URL (e.g., http://127.0.0.1:7860) in your web browser.
+
 Step 2: Walkthrough and Function Testing
 Part 1: Data & Setup Tab
 1.	Initialize the System: The sample_data.csv file should already be selected. Click the "Initialize System" button. You should see "✅ System Initialized. Ready for analysis." in the status box.
