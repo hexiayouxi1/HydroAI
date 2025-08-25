@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 # --- Global State & Helpers ---
 TOOLKIT_INSTANCE, WEATHER_PROVIDER_INSTANCE, FUTURE_WEATHER_DATA = None, None, None
-BASE_MODEL_PATH = r"C:/Users/Administrator/.cache/modelscope/hub/models/Qwen/Qwen2-0___5B-Instruct"
+BASE_MODEL_PATH = r"C:/Users/Administrator/.cache/modelscope/hub/models/Qwen/Qwen2-7B-Instruct"
 ADAPTER_PATH = "./qwen-ts-analyst-lora"
 
 def create_sample_data(filepath='sample_data.csv'):
@@ -360,4 +360,5 @@ with gr.Blocks(theme='soft', title="HydroAI", css=CUSTOM_CSS) as demo:
     demo.load(lambda: llm_dispatcher.load_llm_model(BASE_MODEL_PATH, ADAPTER_PATH), outputs=init_status)
 
 if __name__ == "__main__":
+
     demo.launch(debug=True,share=True)
